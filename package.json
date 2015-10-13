@@ -24,9 +24,11 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "history": "1.12.3",
     "invariant": "^2.0.0",
     "warning": "^2.0.0"
+  },
+  "peerDependencies": {
+    "history": "~1"
   },
   "devDependencies": {
     "babel": "^5.4.7",
